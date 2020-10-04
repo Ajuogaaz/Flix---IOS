@@ -53,6 +53,7 @@
                                             <outlet property="posterView" destination="vlO-rl-N4X" id="Vb1-9j-HAy"/>
                                             <outlet property="synopsisLabel" destination="zp3-5H-dv5" id="Yxt-Bw-Ejg"/>
                                             <outlet property="titleLabel" destination="ews-ry-4Zw" id="cZw-4u-nif"/>
+                                            <segue destination="WJh-CT-IN9" kind="show" id="3rC-TM-Upi"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -70,16 +71,17 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="135.9375"/>
         </scene>
-        <!--View Controller-->
+        <!--Movie Details View Controller-->
         <scene sceneID="KhG-JW-DsM">
             <objects>
-                <viewController id="WJh-CT-IN9" sceneMemberID="viewController">
+                <viewController id="WJh-CT-IN9" customClass="MovieDetailsViewController" customModule="Flixster" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="foK-Ok-U9a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="O1s-oS-ENw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="sby-rp-vNu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oAI-vE-TMw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
